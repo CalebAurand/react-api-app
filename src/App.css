@@ -70,6 +70,7 @@
 .booze-list > li > div {
   display: block;
   align-items: center;
+  margin-right: 25px;
   /* border: 2px solid blue; */
 }
 
