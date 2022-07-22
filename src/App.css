@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.booze-list {
+  display: block;
+  width: 100%;
+}
+
+.booze-list > li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.img-container {
+  display: flex;
+  /* border: 1px solid white; */
+  /* margin: 40px;
+  padding: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container > img {
+  width: 90px;
+}
+
+.booze-list > li > div {
+  display: block;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.booze-list > li > div > h3 {
+  color:#61dafb;
+}
+
+.booze-list > li > div > h3 > span {
+  margin-left: 15px;
+  color:blueviolet
+}
+
+.booze-list > li > div > h4 {
+  color: orangered;
+}
+
+.booze-list > li > div > h3, h4, p {
+  /* border: 1px dashed green; */
+  text-align: left;
+}
+
+.booze-list > li > div > p > span {
+  color: burlywood;
+  font-weight: bold;
+  margin-right: 8px;
 }
